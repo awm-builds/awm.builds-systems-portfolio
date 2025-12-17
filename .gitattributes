@@ -1,0 +1,12 @@
+# Set default behavior to automatically normalize line endings
+* text=auto
+
+# Treat C# files as UTF-8
+*.cs text diff=csharp
+
+# Ensure consistent line endings for common text files
+*.md text
+*.json text
+*.yml text
+*.yaml text
+*.xml text

@@ -1,0 +1,44 @@
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+*.exe
+*.dll
+*.obj
+*.pdb
+*.cache
+*.log
+*.vspscc
+*.vssscc
+*.suo
+*.user
+*.sdf
+*.dbmdl
+*.bak
+*.ncb
+*.swp
+*.tmp
+*.csproj.user
+
+# Visual Studio
+.vs/
+.vscode/
+*.sln.docstates
+
+# NuGet
+*.nupkg
+packages/
+*.snupkg
+
+# ASP.NET
+wwwroot/
+node_modules/
+dist/
+bundle.js
+
+# Others
+*.DS_Store
+Thumbs.db
