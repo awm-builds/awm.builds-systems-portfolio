@@ -1,0 +1,13 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+echo "?? Checking code formatting..."
+dotnet format --verify-no-changes
+FORMAT_STATUS=$?
+
+if [ $FORMAT_STATUS -ne 0 ]; then
+  echo "? Code formatting issues detected. Run 'dotnet format' to fix them."
+  exit 1
+fi
+
+echo "? Code formatting looks good."
