@@ -59,6 +59,11 @@
               "target": "Package",
               "version": "[8.0.0, )"
             },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
             "Microsoft.Extensions.Diagnostics.HealthChecks": {
               "target": "Package",
               "version": "[8.0.0, )"

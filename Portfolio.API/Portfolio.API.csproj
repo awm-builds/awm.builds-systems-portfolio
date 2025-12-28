@@ -13,5 +13,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Portfolio.Infrastructure\Portfolio.Infrastructure.csproj" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.0" PrivateAssets="All" />
   </ItemGroup>
 </Project>
