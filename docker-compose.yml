@@ -45,6 +45,8 @@ services:
 
 volumes:
   pgdata:
+    external: true
+    name: portfolio_pgdata  # Explicit name for consistency
 
 secrets:
   postgres_password:
