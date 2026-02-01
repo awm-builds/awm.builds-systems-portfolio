@@ -33,9 +33,9 @@ jobs:
         with:
           node-version: '20'
       - name: Install commitlint
-        run: npm install --save-dev @commitlint/config-conventional @commitlint/cli
+        run: npm install --save-dev @commitlint/cli@18 @commitlint/config-conventional@18
       - name: Validate commits
-        uses: wagoid/commitlint-github-action@v5
+        run: npx commitlint --from=origin/main --to=HEAD --verbose
 
   format:
     name: dotnet format
