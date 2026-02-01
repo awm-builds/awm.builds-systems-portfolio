@@ -18,7 +18,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.env.example = .env.example
 		.gitattributes = .gitattributes
 		.gitignore = .gitignore
+		docker-compose-menu.bat = docker-compose-menu.bat
 		docker-compose.yml = docker-compose.yml
+		docker-compose-menu.sh = docker-compose-menu.sh
 		LICENSE = LICENSE
 		README.md = README.md
 	EndProjectSection
@@ -39,6 +41,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "diagrams", "diagrams", "{9FFF6F0C-E587-44F5-8419-9CE7006FCF6A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{2BABFE77-439E-4042-A549-123B4E7E7B4E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{8912EB67-4436-4571-A160-C2391F18240C}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\ci.yml = .github\workflows\ci.yml
+		.github\workflows\codeql.yml = .github\workflows\codeql.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -70,6 +80,7 @@ Global
 		{FA58CD5C-2FBC-4CB5-8A68-6C85451BCFEF} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{42C92FF5-ECBB-4BDC-8E86-E9FF2CA95E6E} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{9FFF6F0C-E587-44F5-8419-9CE7006FCF6A} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{8912EB67-4436-4571-A160-C2391F18240C} = {2BABFE77-439E-4042-A549-123B4E7E7B4E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F0BB9AC4-4C3B-42C0-AE73-47E530DAD84F}
